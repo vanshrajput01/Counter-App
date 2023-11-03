@@ -29,7 +29,10 @@ To run this project, you'll need Node.js and npm (Node Package Manager) installe
     ```bash
     npm create vite@latest
 
-3.Use up and Down Key to choose suitable Frontend Libaray like :- Vanilla , React ,Vue etc.
+3.Select a framework: » - Use arrow-keys. Return to submit.
+    Vanilla , Vue , React , Preact , Lit , Svelte , Solid , Qwik , Others
+and Select a variant: » - Use arrow-keys. Return to submit.
+   TypeScript , TypeScript + SWC , JavaScript , JavaScript + SWC
  
  4. Navigate to the project directory:
 
@@ -39,14 +42,14 @@ To run this project, you'll need Node.js and npm (Node Package Manager) installe
 5.Install the project dependencies:
   
       ```bash
-      npm install
+        npm install
 
 # Usage
 
 Start the development server:
 
       ```bash
-         npm run dev
+        npm run dev
 
 This will start the development server, and you can access the app in your browser at http://localhost:3000.
 

@@ -39,12 +39,12 @@ To run this project, you'll need Node.js and npm (Node Package Manager) installe
 5.Install the project dependencies:
   
       ```bash
-      
-        npm install
+      npm install
 
 # Usage
 
 Start the development server:
+
       ```bash
          npm run dev
 

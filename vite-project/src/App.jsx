@@ -1,4 +1,4 @@
-
+import './App.css'
 import { useState } from 'react'
 
 
@@ -25,14 +25,14 @@ function App() {
 
 
   return (
-    <>
+    <div className='counter-container'>
     <h1>counter App</h1>
-    <p>counter : {counter}</p>
-    <button onClick= {inc}>inc</button>
-    <button onClick= {dec}>dec</button>
+    <p >counter : <span>{counter}</span></p>
+    <button className = "btn" onClick= {inc}>Increment</button>
+    <button className = "btn" onClick= {dec}>Decrement</button>
     
 
-    </>
+    </div>
   )
 }
 

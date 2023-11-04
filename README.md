@@ -41,14 +41,14 @@ and Select a variant: » - Use arrow-keys. Return to submit.
 
 5.Install the project dependencies:
   
-    ```bash
+    
        npm install
 
 # Usage
 
    Start the development server:
 
-      ```bash
+      
         npm run dev
 
 This will start the development server, and you can access the app in your browser at http://localhost:3000.
